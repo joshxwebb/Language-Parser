@@ -1,0 +1,7 @@
+#positive test case 3
+
+prog Rfstydvi2
+    start
+        if thisVar then save (5);
+        number := 16
+    finish 

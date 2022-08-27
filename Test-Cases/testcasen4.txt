@@ -1,0 +1,11 @@
+#negative test case: leave out second finsih
+
+prog PositiveTest
+    start
+        a := c <> -d;
+        load (a, b, c, d, d2);
+        save (a - d, c + b);
+            start
+                if (a <= b) then c := d else while c > d do something := somethingelse;
+                a := c * d / b
+            finish

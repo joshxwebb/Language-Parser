@@ -1,0 +1,13 @@
+#positive test case 4
+
+prog PositiveTest
+    start
+        a := c <> -d;
+        #comment mid-code
+        load (a, b, c, d, d2);
+        save (a - d, c + b);
+            start #comment mid-line
+                if (a <= b) then c := d else while c > d do something := somethingelse;
+                a := c * d / b
+            finish
+    finish

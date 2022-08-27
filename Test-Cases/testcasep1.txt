@@ -1,0 +1,6 @@
+# Positive test case 1: single statement
+prog ABC123
+	start
+		Pi := 5
+	finish
+

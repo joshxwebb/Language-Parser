@@ -1,0 +1,16 @@
+#positive test case to run all of grammar
+
+prog ProGRAM454
+    start
+        start
+            if -99 <= 5 + 6 * 4 then 
+                while 5 = 7 - 2 
+                do number := 20
+            else 
+                if ThisVar then
+                    load(Var15, var19, vAr03)
+                else 
+                    save(-55, thing > that)
+        finish
+    finish
+

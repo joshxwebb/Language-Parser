@@ -1,0 +1,7 @@
+#negative test case: fail a statement
+
+prog FailStatement
+    start
+        20;
+        if (this = that) then a := b + c
+    finish
