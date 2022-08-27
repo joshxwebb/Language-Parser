@@ -1,0 +1,5 @@
+# Negative test case 1: missing prog keyword
+ABc123def 
+start
+if ( a <= b ) then a := -2 + 43 else b:= 56 * a 
+finish
